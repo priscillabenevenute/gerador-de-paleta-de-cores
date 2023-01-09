@@ -1,0 +1,59 @@
+@import  url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+}
+
+.conteiner {
+    display: flex;
+    height: 100vh;
+
+}
+.cores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+    border: 1px solid black;
+    width: 20%;
+}
+
+.codigo-cor {
+    width: 70px;
+    background: none;
+    border: none;
+    text-align: center;
+    outline: 0;
+    cursor: pointer;
+}
+
+.btn {
+    position: fixed;
+    top: 90%;
+    left: 47.7%;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    background-color:black;
+}
+
+.armario {
+    cursor: pointer;
+}
+
+i {
+    user-select: none;
+}
+
+p {
+    background-color: transparent; 
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 10px; 
+    text-align:justify;
+    color: black;
+}
